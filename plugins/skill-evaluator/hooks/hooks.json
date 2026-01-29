@@ -1,0 +1,15 @@
+{
+  "description": "Skill evaluation protocol hook - forces explicit skill evaluation before responding",
+  "UserPromptSubmit": [
+    {
+      "matcher": "*",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "python3 \"$CLAUDE_PLUGIN_ROOT/scripts/skill-evaluator.py\"",
+          "timeout": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "skill-evaluator",
+  "version": "1.0.0",
+  "description": "Forces explicit skill evaluation before any response. Scans all installed plugins for available skills and displays a mandatory 3-step evaluation protocol.",
+  "author": {
+    "name": "hwanchang"
+  },
+  "repository": "https://github.com/hwanchang/skill-evaluator"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "hwanchang-plugins",
+  "owner": {
+    "name": "hwanchang"
+  },
+  "plugins": [
+    {
+      "name": "skill-evaluator",
+      "source": "./plugins/skill-evaluator",
+      "description": "Forces explicit skill evaluation before any response. Scans all installed plugins for available skills and displays a mandatory 3-step evaluation protocol.",
+      "version": "1.0.0"
+    }
+  ]
+}
